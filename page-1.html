@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ViewBox Page 01</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/utilities/font-size/font-size.css">
+<link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/utilities/padding/padding.css">
+  
+ <!-- Video js css-->
+
+ <link href="https://vjs.zencdn.net/8.16.1/video-js.css" rel="stylesheet" />
+
+ <!-- Video js css-->
+
+ <!--Video js script-->
+
+ <script src="https://vjs.zencdn.net/8.16.1/video.min.js"></script>
+
+ <!--Video js script-->
+
+ <link rel="stylesheet" href="main-page.css">
+
+  </head>
+  <body>
+    
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">ViewBox</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                More Websites
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://ahmed-shahriar04.github.io/moviebox-by-riaz/">MovieBox</a></li>
+                <li><a class="dropdown-item" href="https://ahmed-shahriar04.github.io/movies-webhub-by-riaz/">Movies WEBHUB</a></li>
+                <li><a class="dropdown-item" href="https://ahmed-shahriar04.github.io/ftp-hub-by-riaz/">FTP HUB</a></li>
+                <li><a class="dropdown-item" href="https://qnahub-by-riaz.netlify.app/">Q&A HUB</a></li>
+                <li><a class="dropdown-item" href="https://ahmed-shahriar04.github.io/toolsforme/">Tools For Me</a></li>
+                <li><a class="dropdown-item" href="https://ahmed-shahriar04.github.io/darkeagle/">DARK EAGLE</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div class="header-text">
+      <h1 class="text-center">Feel Like A Theater</h1>
+
+      <button id="btn-modal" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Need Help? Click Me
+      </button>
+
+       <!-- Vertically centered scrollable modal -->
+  
+  
+  <!-- Button trigger modal -->
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title fs-5" id="exampleModalLabel">Read this context to solve your problems.</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+              1. How to search a channel?
+              <br>
+              <br>
+              Ans.= Press <kbd>ctrl</kbd> + <kbd>F</kbd> then write your channel name.
+              <br>
+              <br>
+              2. Videos are not playing ?
+              <br>
+              <br>
+              Ans.= Press <kbd>ctrl</kbd> + <kbd>R</kbd> to refresh your browser</h1> then you can play your video. We will fix this problem soon. Sorry for that.
+              <br>
+              <br>
+              3. How to download a video?
+              <br>
+              <br>
+              Ans.= You can't download videos, because this are m3u8 live video format.
+              <br>
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">I Understand</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+      
+
+    
+    <div class="container text-center mb-5 mt-5">
+      <div class="row row-cols-4 row-cols-sm-4 row-cols-md-7 g-5">
+        
+      
+        <div class="col">
+          <div class="main-vid">
+            <video id="my-video-0" class="video-js" controls preload="auto" width= "300" height="250"
+            poster="https://www.channels.com.bd/storage/project_files/logo/2024-05-14a_n17156821814310.png" data-setup="{}">
+              <source src="https://amigofx.com:1936/channelsreporter/channelsreporter/playlist.m3u8" type="application/x-mpegURL" />
+            </video>
+            <h3>Channel S</h3>
+          </div>
+        
+        </div>
+        
+        <div class="col">
+          
+          <div class="main-vid">
+            <video id="my-video-1" class="video-js" controls preload="auto" width= "300" height="250"
+            poster="https://upload.wikimedia.org/wikipedia/en/0/0d/Ekhon_Logo.png" data-setup="{}">
+              <source src="https://ythls.armelin.one/channel/UCWVqdPTigfQ-cSNwG7O9MeA.m3u8" type="application/x-mpegURL" />
+            </video>
+            <h3>Ekhon TV</h3>
+          </div>
+
+        </div>
+        
+        <div class="col">
+          
+          <div class="main-vid">
+            <video id="my-video-2" class="video-js" controls preload="auto" width= "300" height="250"
+            poster="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhuHJR0tzeTyoc6XnWJgNddJWkmt5y0spfHw&s" data-setup="{}">
+              <source src="https://ekusheyserver.com/etvlivesn.m3u8" type="application/x-mpegURL" />
+            </video>
+            <h3>Ekushey TV</h3>
+          </div>
+
+        </div>
+          
+        <div class="col">
+          
+          <div class="main-vid">
+            <video id="my-video-3" class="video-js" controls preload="auto" width= "300" height="250"
+            poster="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9E5boR6PnjYeJkRB74kqcIzfG6IRRHgR0iQ&s" data-setup="{}">
+              <source src="https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8" type="application/x-mpegURL" />
+            </video>
+            <h3>EWTN (Asia Pacific)</h3>
+          </div>
+
+        </div>
+
+        <div class="col">
+
+          <div class="main-vid">
+            <video id="my-video-4" class="video-js" controls preload="auto" width= "300" height="250"
+            poster="https://pbs.twimg.com/profile_images/1283856018099798022/5ectikba_400x400.jpg" data-setup="{}">
+              <source src="https://cdn4.skygo.mn/live/disk1/BBC_News/HLSv3-FTA/BBC_News.m3u8" type="application/x-mpegURL" />
+            </video>
+            <h3>BBC News Asia Pacific</h3>
+          </div>
+
+        </div>
+
+        <div class="col">
+
+          <div class="main-vid">
+            <video id="my-video-5" class="video-js" controls preload="auto" width= "300" height="250"
+            poster="https://alpha.uscreencdn.com/assets%2F12402%2Fplayer_image%2F530218%2FInternational-1920x1080.1659537353.jpg" data-setup="{}">
+              <source src="https://3abn.bozztv.com/3abn2/Int_live/smil:Int_live.smil/playlist.m3u8" type="application/x-mpegURL" />
+            </video>
+            <h3>3ABN International</h3>
+          </div>
+
+        </div>
+
+        <div class="col">
+
+          <div class="main-vid">
+            <video id="my-video-6" class="video-js" controls preload="auto" width= "300" height="250"
+            poster="https://upload.wikimedia.org/wikipedia/en/0/06/Aaj_News_%28television_channel%29_logo.png" data-setup="{}">
+              <source src="https://ythls.armelin.one/channel/UCgBAPAcLsh_MAPvJprIz89w.m3u8" type="application/x-mpegURL" />
+            </video>
+            <h3>Aaj News (Pakistan)</h3>
+          </div>
+
+        </div>
+
+        <div class="col">
+
+          <div class="main-vid">
+            <video id="my-video-7" class="video-js" controls preload="auto" width= "300" height="250"
+            poster="https://3abnkids.tv/img/3ABN-KIDS-LOGO.png" data-setup="{}">
+              <source src="https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8" type="application/x-mpegURL" />
+            </video>
+            <h3>3ABN Kids</h3>
+          </div>
+
+        </div>
+
+      
+      
+      </div>
+    </div>
+
+
+
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="index.html">Previous</a>
+        </li>
+        <li class="page-item active"><a class="page-link" href="page-1.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="page-2.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="page-3.html">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="page-2.html">Next</a>
+        </li>
+      </ul>
+    </nav>
+
+
+
+
+
+    <footer id="footer" text-center text-lg-start">
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024 Copyright: This website is developed by Shahriar Ahmed Riaz.
+        <br>
+        Powered by 
+        <a class="text-body" href="https://ahmed-shahriar04.github.io/darkeagle/">DARK EAGLE</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

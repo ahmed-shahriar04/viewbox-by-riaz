@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ViewBox page-5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/utilities/font-size/font-size.css">
+<link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/utilities/padding/padding.css">
+  
+ <!-- Video js css-->
+
+ <link href="https://vjs.zencdn.net/8.16.1/video-js.css" rel="stylesheet" />
+
+ <!-- Video js css-->
+
+ <!--Video js script-->
+
+ <script src="https://vjs.zencdn.net/8.16.1/video.min.js"></script>
+
+ <!--Video js script-->
+
+ <link rel="stylesheet" href="main-page.css">
+
+  </head>
+  <body>
+    
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">ViewBox</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                More Websites
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://ahmed-shahriar04.github.io/moviebox-by-riaz/">MovieBox</a></li>
+                <li><a class="dropdown-item" href="https://ahmed-shahriar04.github.io/movies-webhub-by-riaz/">Movies WEBHUB</a></li>
+                <li><a class="dropdown-item" href="https://ahmed-shahriar04.github.io/ftp-hub-by-riaz/">FTP HUB</a></li>
+                <li><a class="dropdown-item" href="https://qnahub-by-riaz.netlify.app/">Q&A HUB</a></li>
+                <li><a class="dropdown-item" href="https://ahmed-shahriar04.github.io/toolsforme/">Tools For Me</a></li>
+                <li><a class="dropdown-item" href="https://ahmed-shahriar04.github.io/darkeagle/">DARK EAGLE</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div class="header-text">
+      <h1 class="text-center">Feel Like A Theater</h1>
+
+      <button id="btn-modal" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Need Help? Click Me
+      </button>
+
+       <!-- Vertically centered scrollable modal -->
+  
+  
+  <!-- Button trigger modal -->
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title fs-5" id="exampleModalLabel">Read this context to solve your problems.</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+              1. How to search a channel?
+              <br>
+              <br>
+              Ans.= Press <kbd>ctrl</kbd> + <kbd>F</kbd> then write your channel name.
+              <br>
+              <br>
+              2. Videos are not playing ?
+              <br>
+              <br>
+              Ans.= Press <kbd>ctrl</kbd> + <kbd>R</kbd> to refresh your browser</h1> then you can play your video. We will fix this problem soon. Sorry for that.
+              <br>
+              <br>
+              3. How to download a video?
+              <br>
+              <br>
+              Ans.= You can't download videos, because this are m3u8 live video format.
+              <br>
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">I Understand</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+      
+
+    
+    <div class="container text-center mb-5 mt-5">
+      <div class="row row-cols-4 row-cols-sm-4 row-cols-md-7 g-5">
+        
+      
+        <div class="col">
+          <div class="main-vid">
+            <video id="my-video-0" class="video-js" controls preload="auto" width= "300" height="250"
+            poster="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/1200px-Deutsche_Welle_symbol_2012.svg.png" data-setup="{}">
+          <source src="https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8" type="application/x-mpegURL" />
+        </video>
+        <h3>DW English</h3>
+          </div>
+        
+        </div>
+        
+        <div class="col">
+          
+          <div class="main-vid">
+            <video id="my-video-1" class="video-js" controls preload="auto" width= "300" height="250"
+            poster="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu7QzbUI8Gj5LwhNxezGxsAnEYdXJjjc_dSQ&s" data-setup="{}">
+          <source src="http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6305ca798bd95300072d2f93/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1db1d4-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=4a90c28a-e616-4ce8-bd9d-18ee8820eede&serverSideAds=false" type="application/x-mpegURL" />
+        </video>
+        <h3>Filmgold</h3>
+          </div>
+
+        </div>
+        
+        <div class="col">
+          
+          <div class="main-vid">
+            <video id="my-video-2" class="video-js" controls preload="auto" width= "300" height="250"
+            poster="https://sales.filmrise.com/img/878ec6c87891209ffcc1.png" data-setup="{}">
+          <source src="https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/channel-hls/v2/56f5b5ceafba4a8b/9991728/master.m3u8?ads.xumo_channelId=9991728" type="application/x-mpegURL" />
+        </video>
+        <h3>FilmRise Binge Watch France (720p)</h3>
+          </div>
+
+        </div>
+          
+        <div class="col">
+          
+          <div class="main-vid">
+            <video id="my-video-3" class="video-js" controls preload="auto" width= "300" height="250"
+            poster="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_5jtasf1DMpL6nVuJ-dq0Ijp4AZWMbpwUag&s" data-setup="{}">
+          <source src="https://spi-filmstream-1-in.samsung.wurl.tv/playlist.m3u8" type="application/x-mpegURL" />
+        </video>
+        <h3>Filmstream</h3>
+          </div>
+
+        </div>
+
+        <div class="col">
+
+          <div class="main-vid">
+            <video id="my-video-4" class="video-js" controls preload="auto" width= "300" height="250"
+            poster="https://upload.wikimedia.org/wikipedia/commons/7/71/First_India_News_.png" data-setup="{}">
+            <source src="https://ythls.armelin.one/channel/UC_cZYFovNQTsKw1ZLmO_AMA.m3u8" type="application/x-mpegURL" />
+          </video>
+          <h3>First India News</h3>
+          </div>
+
+        </div>
+
+        <div class="col">
+
+          <div class="main-vid">
+            <video id="my-video-5" class="video-js" controls preload="auto" width= "300" height="250"
+            poster="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKpWjsAtJqcrK0UgvdWjbigF2-P4vLfTOjdg&s" data-setup="{}">
+          <source src="http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f8eccd81062c300078a11df/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e050353-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=1020d719-457b-4030-b4a2-b5301461d381" type="application/x-mpegURL" />
+        </video>
+        <h3>Gaming TV</h3>
+          </div>
+
+        </div>
+
+        <div class="col">
+
+          <div class="main-vid">
+            <video id="my-video-6" class="video-js" controls preload="auto" width= "300" height="250"
+            poster="https://yt3.googleusercontent.com/ytc/AIdro_mbv5aRIVB_Pm_UNYK1bkKCKoIPPQEN-w0b74k0zOZ-GZs=s900-c-k-c0x00ffffff-no-rj" data-setup="{}">
+          <source src="https://live-islamtv-urdu.simplestreamcdn.com/live7/islamtv_urdu/bitrate1.isml/live.m3u8" type="application/x-mpegURL" />
+        </video>
+        <h3>Islam Channel Urdu</h3>
+          </div>
+
+        </div>
+
+        <div class="col">
+
+          <div class="main-vid">
+            <video id="my-video-7" class="video-js" controls preload="auto" width= "300" height="250"
+            poster="https://www.shutterstock.com/image-vector/vintage-logo-music-festival-inscription-260nw-2159433327.jpg" data-setup="{}">
+          <source src="http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/663d24a7cb3ea10008f567d3/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c298db5-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=1ac91f63-7406-4e95-8951-84561f9bf332" type="application/x-mpegURL" />
+        </video>
+        <h3>Live Music</h3>
+          </div>
+
+        </div>
+
+      
+      
+      </div>
+    </div>
+
+
+
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="page-4.html">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="page-4.html">4</a></li>
+        <li class="page-item active"><a class="page-link" href="page-5.html">5</a></li>
+        <li class="page-item"><a class="page-link" href="page-6.html">6</a></li>
+        <li class="page-item">
+          <a class="page-link" href="page-6.html">Next</a>
+        </li>
+      </ul>
+    </nav>
+
+
+
+
+
+    <footer id="footer" text-center text-lg-start">
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024 Copyright: This website is developed by Shahriar Ahmed Riaz.
+        <br>
+        Powered by 
+        <a class="text-body" href="https://ahmed-shahriar04.github.io/darkeagle/">DARK EAGLE</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

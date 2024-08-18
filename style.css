@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body, html {
+    height: 100%;
+  }
+/*First body parallax section*/
+
+.parallax {
+    /* The image used */
+    background-image: url("bg-1.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*First body parallax section/
+
+/*Navbar section*/
+
+.navbar{
+    background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+}
+
+.navbar .navbar-brand{
+    
+    /** TEXT GRADIENT */ color: #8ecdbe; background-image: -webkit-linear-gradient(315deg, #8ecdbe 44%, #cd645d 59%, #aa11c6 100%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+    font-family: "Jersey 10", sans-serif;
+    
+  
+font-weight: bold;
+font-size: 50px;
+}
+
+/*#logo{
+    width: 150px;
+    margin-top: 50px;
+    filter: drop-shadow(0px 1000px 0 white);
+  transform: translateY(-1000px);
+}*/
+
+#head-title{
+    color: #8ecdbe;
+    background-image: -webkit-linear-gradient(315deg, #8ecdbe 44%, #cd645d 59%, #aa11c6 100%); 
+    
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 200px;
+    font-family: "Jersey 10", sans-serif;
+    letter-spacing: 25px;
+    margin:0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#scroll{
+    font-size: 35px;
+    font-family: "Work Sans", system-ui;
+    width: 800px;
+    color: tomato;
+    letter-spacing: 15px;
+    margin:0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.offcanvas-title{
+    font-size: 35px;
+    color: #8ecdbe;
+    background-image: -webkit-linear-gradient(315deg, #8ecdbe 44%, #cd645d 59%, #aa11c6 100%); 
+    
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-family: "Jersey 10", sans-serif;
+}
+/*Navbar section*/
+
+/*Parallax-01 (header part) start*/
+
+#p-1{
+    height:1000px;
+    background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    font-size:36px;
+}
+
+
+#text-1{
+    animation: rollIn;
+    animation-duration: 2s;
+    color: red;
+}
+
+section{
+    display: grid;
+    place-items: center;
+    align-items: center;
+    min-height: 50vh;
+    color: aliceblue;
+    font-family: "Work Sans", system-ui;
+}
+
+/*Parallax-01 (header part) end*/
+
+/*Parallax-02 (hero part) start*/
+
+.parallax-2{
+    /* The image used */
+    background-image: url("bg-2.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.hero{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+
+.hero-left{
+    flex-grow: 1;
+}
+
+.title{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 20px 0;
+}
+
+.caption{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.links{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.links a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aqua;
+    text-align: center;
+    border: 0.5mm solid rgb(200, 200, 200);
+    border-radius: 5mm;
+    padding: 7px 20px;
+    transition: all 0.3s;
+}
+
+.links a.primary{
+    margin-right: 20px;
+}
+
+.links a:hover{
+    color: #004e92;
+    background: fixed aqua;
+}
+
+.hero-right img{
+    width: 370px;
+    border-radius: 50%;
+}
+
+/*Parallax-02 (hero part) end*/
+
+
+/*Parallax-03 (content part) start*/
+
+.content{
+    width: 100%;
+    min-height: 90%;
+    display: grid;
+    place-items: center;
+}
+
+.box{
+    width: 80%;
+    background: rgb(232, 240, 254);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 5mm;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.box-left, .box-right{
+    flex: 1;
+    box-sizing: border-box;
+    padding: 10px;
+    display: grid;
+    place-items: center;
+}
+
+.box-left img{
+    width: 300px;
+    border-radius: 5mm;
+}
+
+.box-right{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(40, 42, 45);
+}
+
+.box-title{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.box-description{
+    width: 100%;
+    font-size: 14px;
+    text-align: justify;
+}
+
+/*Parallax-03 end*/
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------*/
+
+/*Animation Section*/
+
+/*Parallax animation for header type-01 start*/
+
+/*For hidden start*/
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.hidden{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+/*For hidden end*/
+
+/*Parallax animation for header type-01 end*/
+
+
+
+/*Parallax animation type-02 start*/
+
+/*For parallax-02 for hero start*/
+@keyframes appear-left{
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.hero{
+    animation: appear-left linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+/*For parallax-02 end*/
+
+/*Parallax animation for hero type-02 end*/
+
+
+/*For content start type-02*/
+@keyframes appear-right{
+    from{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.content{
+    animation: appear-right linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+/*For content end type-02*/
+
+
+/*For p4-content start type-02*/
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.p4-content{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+/*For p4-content end type-02*/
+
+/*Animation Section*/
+/*----------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media part to responsivness start*/
+
+@media only screen and(max-width:1000px){
+    .title{
+        font-size: 5vw;
+    }
+
+    .hero-right img{
+        width: 35vw;
+    }
+
+    .caption{
+        font-size: 1.4vw;
+    }
+
+    .links a{
+        font-size: 1.5vw;
+        padding: 0.6vw 1.65vw;
+    }
+}
+
+@media only screen and(max-width: 700px) {
+    .title{
+        font-size: 45px;
+        text-align: center;
+    }
+
+
+    .hero-right{
+        display: none;
+    }
+
+    .caption{
+        font-size: 14px;
+    }
+
+    .links a{
+        font-size: 14px;
+        padding: 7px 20px;
+    }
+
+    .hero-left{
+        display: grid;
+        place-items: center;
+    }
+
+    .links{
+        justify-content: center;
+    }
+
+    .box-left img{
+        width: 200px;
+    }
+
+    .box-title{
+        font-size: 30px;
+    }
+}
+/*Media part to responsivness end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------*/
+
+/*parralax-04*/
+
+
+.parallax-4{
+    background-image: url("bg-3.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.p4-content{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.p4-content h4{
+    color: white;
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+.p4-content .odometer{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #2980b9;
+    padding-bottom: 15px;
+}
+
+
+/*Parallax-04*/
+
+#foot-name{
+    text-decoration: none;
+    /** TEXT GRADIENT */ color: #8ecdbe; background-image: -webkit-linear-gradient(315deg, #8ecdbe 44%, #cd645d 59%, #aa11c6 100%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+    font-family: "Jersey 10", sans-serif;
+          
+        
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.explore{
+    height:200px;
+    background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    font-size:36px;
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore .exp-head{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.explore .offset{
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 15px;
+    color: #19bc8b;
+    transition: 0.5s;
+}
+
+.offset:hover{
+    background-color: #19bc8b;
+    color: #000428;
+}

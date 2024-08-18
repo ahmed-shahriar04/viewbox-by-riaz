@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background: #8E0E00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.navbar{
+    background: #1488CC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.navbar .navbar-brand{
+    
+          /** TEXT GRADIENT */ color: #8ecdbe; background-image: -webkit-linear-gradient(315deg, #8ecdbe 44%, #cd645d 59%, #aa11c6 100%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+          font-family: "Jersey 10", sans-serif;
+          
+        
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.main-vid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+    max-height: fit-content;
+    gap: 23px;
+    box-sizing: border-box;
+    
+    background: #FFEFBA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.main-vid h3{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family: "Work Sans", system-ui;
+}
+
+#btn-modal{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-text h1{
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 15px;
+    
+          /** TEXT GRADIENT */ color: #9cb5d0; background-image: -webkit-linear-gradient(315deg, #9cb5d0 7%, #296a89 30%, #df9f63 71%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+          
+        
+          font-family: "Sedan", serif;
+}
+
+.modal-header h2{
+    color: black;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: white;
+}
+
+@media only screen and (max-width:700px){
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row-cols-sm-4>*{
+        width: 80%;
+    }
+}
+
+
+@media only screen and (width:990px){
+    .row-cols-sm-4>*{
+        width: 50%;
+    }
+}
+
+footer .text-body{
+    text-decoration: none;
+    
+          /** TEXT GRADIENT */ color: #abb2bf; background-image: -webkit-linear-gradient(135deg, #abb2bf 13%, #000000 50%, #ffffff 100%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;
+          
+        font-size: 35px;
+        font-weight: bold
+}
+
+#footer{
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+color: white;
+}
+
+#btn-modal{
+   background-image: linear-gradient(to left, #0652DD, #0652DD, #12CBC4);
+   border: none;
+   background-size: 200%;
+   transition: 0.6s;
+}
+
+#btn-modal:hover{
+    background-position: right;
+
+}

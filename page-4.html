@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ViewBox page-4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/utilities/font-size/font-size.css">
+<link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/utilities/padding/padding.css">
+  
+ <!-- Video js css-->
+
+ <link href="https://vjs.zencdn.net/8.16.1/video-js.css" rel="stylesheet" />
+
+ <!-- Video js css-->
+
+ <!--Video js script-->
+
+ <script src="https://vjs.zencdn.net/8.16.1/video.min.js"></script>
+
+ <!--Video js script-->
+
+ <link rel="stylesheet" href="main-page.css">
+
+  </head>
+  <body>
+    
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">ViewBox</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                More Websites
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://ahmed-shahriar04.github.io/moviebox-by-riaz/">MovieBox</a></li>
+                <li><a class="dropdown-item" href="https://ahmed-shahriar04.github.io/movies-webhub-by-riaz/">Movies WEBHUB</a></li>
+                <li><a class="dropdown-item" href="https://ahmed-shahriar04.github.io/ftp-hub-by-riaz/">FTP HUB</a></li>
+                <li><a class="dropdown-item" href="https://qnahub-by-riaz.netlify.app/">Q&A HUB</a></li>
+                <li><a class="dropdown-item" href="https://ahmed-shahriar04.github.io/toolsforme/">Tools For Me</a></li>
+                <li><a class="dropdown-item" href="https://ahmed-shahriar04.github.io/darkeagle/">DARK EAGLE</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div class="header-text">
+      <h1 class="text-center">Feel Like A Theater</h1>
+
+      <button id="btn-modal" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Need Help? Click Me
+      </button>
+
+       <!-- Vertically centered scrollable modal -->
+  
+  
+  <!-- Button trigger modal -->
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title fs-5" id="exampleModalLabel">Read this context to solve your problems.</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+              1. How to search a channel?
+              <br>
+              <br>
+              Ans.= Press <kbd>ctrl</kbd> + <kbd>F</kbd> then write your channel name.
+              <br>
+              <br>
+              2. Videos are not playing ?
+              <br>
+              <br>
+              Ans.= Press <kbd>ctrl</kbd> + <kbd>R</kbd> to refresh your browser</h1> then you can play your video. We will fix this problem soon. Sorry for that.
+              <br>
+              <br>
+              3. How to download a video?
+              <br>
+              <br>
+              Ans.= You can't download videos, because this are m3u8 live video format.
+              <br>
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">I Understand</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+      
+
+    
+    <div class="container text-center mb-5 mt-5">
+      <div class="row row-cols-4 row-cols-sm-4 row-cols-md-7 g-5">
+        
+      
+        <div class="col">
+          <div class="main-vid">
+            <video id="my-video-0" class="video-js" controls preload="auto" width= "300" height="250"
+            poster="https://upload.wikimedia.org/wikipedia/commons/0/0d/New_logo_of_DD_India.jpg" data-setup="{}">
+            <source src="https://ythls.armelin.one/channel/UCGDQNvybfDDeGTf4GtigXaw.m3u8" type="application/x-mpegURL" />
+          </video>
+          <h3>DD India</h3>
+          </div>
+        
+        </div>
+        
+        <div class="col">
+          
+          <div class="main-vid">
+            <video id="my-video-1" class="video-js" controls preload="auto" width= "300" height="250"
+            poster="https://images.indianexpress.com/2024/04/DDlogo-2col.jpg" data-setup="{}">
+          <source src="https://hls.media.nic.in/hls/live/ddnews/ddnews.m3u8" type="application/x-mpegURL" />
+        </video>
+        <h3>DD News</h3>
+          </div>
+
+        </div>
+        
+        <div class="col">
+          
+          <div class="main-vid">
+            <video id="my-video-2" class="video-js" controls preload="auto" width= "300" height="250"
+            poster="https://upload.wikimedia.org/wikipedia/commons/d/d2/2019_Disney_Channel_logo.svg" data-setup="{}">
+            <source src="http://109.233.89.170/Disney_Channel/mono.m3u8" type="application/x-mpegURL" />
+          </video>
+          <h3>Disney Channel</h3>
+          </div>
+
+        </div>
+          
+        <div class="col">
+          
+          <div class="main-vid">
+            <video id="my-video-3" class="video-js" controls preload="auto" width= "300" height="250"
+            poster="https://upload.wikimedia.org/wikipedia/commons/d/d2/2019_Disney_Channel_logo.svg" data-setup="{}">
+          <source src="https://spa-ha-p005.cdn.masmediatv.es/SVoriginOperatorEdge2/smil:21_HD.smil/manifest.m3u8" type="application/x-mpegURL" />
+        </video>
+        <h3>Disney Channel-02</h3>
+          </div>
+
+        </div>
+
+        <div class="col">
+
+          <div class="main-vid">
+            <video id="my-video-4" class="video-js" controls preload="auto" width= "300" height="250"
+            poster="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/69c84613-a1a3-4e06-ab40-bb4889dc214a/deyq3dk-28f104e3-ad8c-4ad1-8f7e-9a695bc7d035.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY5Yzg0NjEzLWExYTMtNGUwNi1hYjQwLWJiNDg4OWRjMjE0YVwvZGV5cTNkay0yOGYxMDRlMy1hZDhjLTRhZDEtOGY3ZS05YTY5NWJjN2QwMzUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ZZ-KQAVkBD-Mxm2f6gbwgJtx7Hzy309h8qB4vZpC3Dw" data-setup="{}">
+          <source src="http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs24" type="application/x-mpegURL" />
+        </video>
+        <h3>Disney Channel Japan (544p)</h3>
+          </div>
+
+        </div>
+
+        <div class="col">
+
+          <div class="main-vid">
+            <video id="my-video-5" class="video-js" controls preload="auto" width= "300" height="250"
+            poster="https://upload.wikimedia.org/wikipedia/commons/d/d2/2019_Disney_Channel_logo.svg" data-setup="{}">
+          <source src="http://168.181.122.234:8000/play/a038/index.m3u8" type="application/x-mpegURL" />
+        </video>
+        <h3>Disney Channel Latin America (480p)</h3>
+          </div>
+
+        </div>
+
+        <div class="col">
+
+          <div class="main-vid">
+            <video id="my-video-6" class="video-js" controls preload="auto" width= "300" height="250"
+            poster="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Disney_XD_-_2015.svg/1200px-Disney_XD_-_2015.svg.png" data-setup="{}">
+          <source src="http://178.219.128.68:64888/DISNXD" type="application/x-mpegURL" />
+        </video>
+        <h3>Disney XD (576p)</h3>
+          </div>
+
+        </div>
+
+        <div class="col">
+
+          <div class="main-vid">
+            <video id="my-video-7" class="video-js" controls preload="auto" width= "300" height="250"
+            poster="https://i.ytimg.com/vi/1foDNM5pDME/mqdefault.jpg" data-setup="{}">
+          <source src="http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62e951258a26d40007b3034c/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c7a0687-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=697806d6-afc8-4125-a899-6ef54b8526fc" type="application/x-mpegURL" />
+        </video>
+        <h3>Dora TV</h3>
+          </div>
+
+        </div>
+
+      
+      
+      </div>
+    </div>
+
+
+
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="page-3.html">Previous</a>
+        </li>
+        <li class="page-item active"><a class="page-link" href="page-4.html">4</a></li>
+        <li class="page-item"><a class="page-link" href="page-5.html">5</a></li>
+        <li class="page-item"><a class="page-link" href="page-6.html">6</a></li>
+        <li class="page-item">
+          <a class="page-link" href="page-5.html">Next</a>
+        </li>
+      </ul>
+    </nav>
+
+
+
+
+
+    <footer id="footer" text-center text-lg-start">
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024 Copyright: This website is developed by Shahriar Ahmed Riaz.
+        <br>
+        Powered by 
+        <a class="text-body" href="https://ahmed-shahriar04.github.io/darkeagle/">DARK EAGLE</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
