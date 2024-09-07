@@ -10,7 +10,7 @@ body, html {
 
 .parallax {
     /* The image used */
-    background-image: url("bg-1.jpg");
+    background-image: url("https://raw.githubusercontent.com/ahmed-shahriar04/viewbox-by-riaz/main/bg-1.jpg");
   
     /* Full height */
     height: 100%;
@@ -127,7 +127,7 @@ section{
 
 .parallax-2{
     /* The image used */
-    background-image: url("bg-2.jpg");
+    background-image: url("https://raw.githubusercontent.com/ahmed-shahriar04/viewbox-by-riaz/main/bg-2.jpg");
   
     /* Full height */
     height: 100%;
@@ -457,7 +457,7 @@ section{
 
 
 .parallax-4{
-    background-image: url("bg-3.jpg");
+    background-image: url("https://raw.githubusercontent.com/ahmed-shahriar04/viewbox-by-riaz/main/bg-3.jpg");
   
     /* Full height */
     height: 100%;
